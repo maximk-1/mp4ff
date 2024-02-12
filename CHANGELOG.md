@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - InitSegment.TweakSingleTrakLive changes an init segment to fit live streaming
 
+### Fixed
+
+- GetTrex() return value
+
 ## [0.42.0] - 2024-01-26
 
 ### Fixed

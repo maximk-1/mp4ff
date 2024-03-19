@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/Eyevinn/mp4ff/aac"
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/maximk-1/mp4ff/aac"
+	"github.com/maximk-1/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/mp4"
 )
 
 const (

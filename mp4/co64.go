@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/bits"
 )
 
 // Co64Box - Chunk Large Offset Box

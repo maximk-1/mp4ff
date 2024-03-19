@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/av1"
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/av1"
+	"github.com/maximk-1/mp4ff/bits"
 )
 
 type Av1CBox struct {

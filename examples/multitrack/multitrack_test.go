@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
 	"github.com/go-test/deep"
+	"github.com/maximk-1/mp4ff/mp4"
 )
 
 const (

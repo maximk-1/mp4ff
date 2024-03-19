@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/sei"
 	"github.com/go-test/deep"
+	"github.com/maximk-1/mp4ff/sei"
 )
 
 func TestSEIStrings(t *testing.T) {

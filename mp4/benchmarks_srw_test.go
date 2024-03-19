@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/bits"
 )
 
 func TestDecodEncodeFileSRW(t *testing.T) {

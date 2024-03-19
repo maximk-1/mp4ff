@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/maximk-1/mp4ff/mp4"
 )
 
 var usg = `Usage of mp4ff-wvttlister:

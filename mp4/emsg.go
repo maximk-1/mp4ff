@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/bits"
 )
 
 // EmsgBox - DASHEventMessageBox as defined in ISO/IEC 23009-1

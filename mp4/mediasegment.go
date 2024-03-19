@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/bits"
 )
 
 // MediaSegment is an MP4 Media Segment with one or more Fragments.

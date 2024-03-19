@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Eyevinn/mp4ff/avc"
+	"github.com/maximk-1/mp4ff/avc"
 )
 
 type cryptoDir int

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/bits"
 )
 
 // ADTSHeader - data for an unencrypted ADTS Header with one AAC frame.

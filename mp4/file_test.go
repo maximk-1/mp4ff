@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/aac"
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/aac"
+	"github.com/maximk-1/mp4ff/bits"
 )
 
 func TestDecodeFileWithLazyMdatOption(t *testing.T) {

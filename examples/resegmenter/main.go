@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/maximk-1/mp4ff/mp4"
 )
 
 func main() {

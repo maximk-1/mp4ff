@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
 	"github.com/go-test/deep"
+	"github.com/maximk-1/mp4ff/bits"
 )
 
 // Helpers to tests. By including t.Helper(), the right failing line in the test

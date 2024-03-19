@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/maximk-1/mp4ff/mp4"
 )
 
 // TestCroppedFileDuration - simple test to check that cropped file has right duration

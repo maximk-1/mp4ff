@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/hevc"
+	"github.com/maximk-1/mp4ff/bits"
+	"github.com/maximk-1/mp4ff/hevc"
 )
 
 // VisualSampleEntryBox Video Sample Description box (avc1/avc3/hvc1/hev1...)

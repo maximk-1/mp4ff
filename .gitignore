@@ -15,3 +15,5 @@
 vendor/
 
 /mp4/test_data/out_init.cmfv
+
+.idea

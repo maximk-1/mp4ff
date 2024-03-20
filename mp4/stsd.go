@@ -20,7 +20,9 @@ type StsdBox struct {
 	AvcX *VisualSampleEntryBox
 	// HvcX is a pointer to a box with name hvc1 or hev1
 	HvcX *VisualSampleEntryBox
-	// Mp4a is a pointer to to a box with name mp4a
+	// Av01 is a pointer to a box with name av01
+	Av01 *VisualSampleEntryBox
+	// Mp4a is a pointer to a box with name mp4a
 	Mp4a *AudioSampleEntryBox
 	// AC3 is a pointer to a box with name ac-3
 	AC3 *AudioSampleEntryBox
@@ -41,10 +43,12 @@ func NewStsdBox() *StsdBox {
 // AddChild - Add a child box, set relevant pointer, and update SampleCount
 func (s *StsdBox) AddChild(box Box) {
 	switch box.Type() {
-	case "avc1", "avc3", "av01", "av1C":
+	case "avc1", "avc3":
 		s.AvcX = box.(*VisualSampleEntryBox)
 	case "hvc1", "hev1":
 		s.HvcX = box.(*VisualSampleEntryBox)
+	case "av01":
+		s.Av01 = box.(*VisualSampleEntryBox)
 	case "mp4a":
 		s.Mp4a = box.(*AudioSampleEntryBox)
 	case "ac-3":
